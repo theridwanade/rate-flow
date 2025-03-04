@@ -1,0 +1,33 @@
+{
+  "name": "rate-flow",
+  "version": "1.0.0",
+  "description": "Currency rates api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "theridwanade",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/morgan": "^1.9.9",
+    "axios": "^1.8.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0",
+    "typescript": "^5.8.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.8",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
